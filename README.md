@@ -10,7 +10,7 @@ The smash.gg donation relay bot relys on the two packages `discord` and `request
 There's a few spots where you'll need to add your info for the bot to work properly:
  * `SMASHGG_API_KEY = "YOUR_SMASHGG_API_KEY"`
  * `client.run('you.discord-bot.id-slash.token')`
- * `"slug": "shop/your-shop-id"`
+ * `"slug": "shop/your-shop-id"` (in two spots)
 
 ## Commands
  * `!setrelaychannel` This command sets the channel where donation embeds will be generated; run it in your channel of choice
