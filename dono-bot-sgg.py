@@ -57,12 +57,10 @@ class SmashGGApiClient():
 
     def getDonations(self):
         donations = []
-        # sometimes this just stops working. haven't debugged it fully yet.
-        # keep an eye on the terminal and restart it if it crashes.
+        # during development it would just stops working sometimes.
+        # i haven't debugged it fully yet, but i think i fixed most or all of the reasons it might crash.
 
-        # as a bit of a way to gauge how often it crashes, i had to restart
-        # the bot twice during Netplay for Palestine which was about 10 hours
-        # long.
+        # just keep an eye on the terminal and restart it if it prints a stack trace.
         try:
             for page in range(self.pages):
                 query = """
